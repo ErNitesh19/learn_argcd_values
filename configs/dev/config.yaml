@@ -1,0 +1,11 @@
+# image_tag: "st21"
+node_port: 30001
+
+
+replicas: 1
+
+service:
+  type: NodePort
+
+image:  
+  name: "vimal13/apache-webserver-php"
