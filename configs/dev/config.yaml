@@ -2,7 +2,7 @@
 node_port: 30001
 
 
-replicas: 1
+replicas: 3
 
 service:
   type: NodePort
